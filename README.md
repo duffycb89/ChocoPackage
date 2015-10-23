@@ -7,7 +7,7 @@ GitHub: https://github.com/chocolatey/chocolatey
 
 Steps
 
-	1. Setup nuspec file and choco install file that will be used for creation.
+  1. Setup nuspec file and choco install file that will be used for creation.
 
   2. Define any dependencies inside your nuspec file. (Example below)
 
