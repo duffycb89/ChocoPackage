@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Simple_Choco</id>
+    <version>1.1.0</version>
+    <authors>duffycb89</authors>
+    <description>Creates a simple chocolatey package.</description>
+    <language>en-US</language>
+    <projectUrl>https://github.com/duffycb89/ChocoPackage</projectUrl>
+    <licenseUrl>http://www.gnu.org/licenses/gpl.html</licenseUrl>
+    <dependencies>
+    </dependencies>
+  </metadata>
+</package>
