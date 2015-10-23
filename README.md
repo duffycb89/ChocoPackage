@@ -7,19 +7,17 @@ GitHub: https://github.com/chocolatey/chocolatey
 
 Steps
 
-	1.) Setup nuspec file and choco install file that will be used to create your
-  package.
+	1.) Setup nuspec file and choco install file that will be used for creation.
 
   2.) Define any dependencies inside your nuspec file. (Example below)
 
-  3.) Setup your install script for how you want the install to happen. Example
-  below with also how to pass it params.
+  3.) Setup install script for your needs. (Example below)
 
-  4.) Once script and nuspec file is ready run the pack commands to create the
-  choco package itself. Remember to move content files into correct locations
-  during pack event.
+  4.) Create folders and move files. See choco_pack.bat for examples.
 
-  5.) Choco package should be ready to go! Run the install commands to see the results.
+  5.) Run pack commands once script and nuspec files are ready.
+
+  5.) Choco package should be ready to go! Run the install commands to test.
 		- Keep in mind that choco.exe has to be installed on a machine to be able to
     run the choco install command. See Chocolatey's site for this setup command.
     - For better feedback and troubleshooting make sure to write to the console
